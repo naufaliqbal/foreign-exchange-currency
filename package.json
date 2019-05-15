@@ -1,0 +1,21 @@
+{
+  "name": "shopee-test",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Naufal",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "less-plugin-clean-css": "^1.5.1"
+  }
+}
