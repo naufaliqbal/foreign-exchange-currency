@@ -40,7 +40,7 @@ Vue.component('v-app-body', {
                         <div class="list-information">
                             <div class="list-information-header">
                                 <span class="currency">{{rateList.currency}}</span>
-                                <span class="value">{{(selectedNominal * rateList.rate).toFixed(2)}}</span>
+                                <p class="value">{{(selectedNominal * rateList.rate).toFixed(2)}}</p>
                             </div>
                             <p class="list-information-abbr">{{rateList.currency}} - {{rateList.abbreviations}}</p>
                             <p class="list-information-exchangerate">1 {{mainCurrency}} = {{rateList.currency}} {{rateList.rate}}</p>
